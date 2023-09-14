@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../ANSIBLE REFACTORING AND STATIC ASSIGNMENTS (IMPORTS AND ROLES)"
+		}
+	],
+	"settings": {
+		"ansible.python.interpreterPath": "/usr/bin/python3"
+	}
+}
