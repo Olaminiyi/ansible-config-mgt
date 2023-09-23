@@ -1,4 +1,21 @@
 [uat-webservers]
 172.31.47.212 ansible_ssh_user='ec2-user' 
 
-172.31.35.241 ansible_ssh_user='ec2-user' 
+172.31.35.241 ansible_ssh_user='ec2-user'
+
+
+[nfs]
+172.31.3.147
+
+
+[db]
+172.31.14.236
+
+
+[lb]
+172.31.39.7
+
+[deployment:children]
+db
+lb
+

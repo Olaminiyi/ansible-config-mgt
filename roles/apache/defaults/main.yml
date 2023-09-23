@@ -63,6 +63,6 @@ apache_packages_state: present
 
 # Webservers
 loadbalancer_name: "myapp1"
-web1: "172.31.47.212"
-web2: "172.31.35.241"
+web1: "172.31.47.212 weight=3"
+web2: "172.31.35.241 weight=3"
 
