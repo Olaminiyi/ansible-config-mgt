@@ -1,0 +1,10 @@
+{
+    "settings": {
+        "ansible.python.interpreterPath": "/usr/bin/python3"
+    },
+    "folders": [
+        {
+            "path": "../../../../Ansible Dynamic Assignments (Include) and Community Rolesolder"
+        }
+    ]
+}
