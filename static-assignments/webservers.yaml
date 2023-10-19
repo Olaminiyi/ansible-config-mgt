@@ -1,6 +1,5 @@
 ---
 - hosts: webservers
-  become: yes
   roles:
-  - webserver 
-     
+    - webserver 
+  become: yes
