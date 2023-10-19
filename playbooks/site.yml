@@ -15,7 +15,7 @@
 #- name: import database file
   #import_playbook: ../static-assignments/db.yml
 
-- host: webservers
+- hosts: webservers
 - name: import webservers file
 - import_playbook: ../static-assignments/webservers.yaml
 
